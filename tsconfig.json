@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module":"CommonJS",
+    "esModuleInterop":true,
+    "moduleResolution": "Node",
+    "declaration": true,
+    "outDir": "./lib",
+    "strict": true
+  },
+  "include": ["./src","./src/constants/*.ts","./src/intefaces/*.ts"],
+  "exclude": ["node_modules", "**/__tests__/*"]
+}
