@@ -7,5 +7,6 @@ interface ApplyEncryptedFieldsI {
   schema: Schema;
   fields: string[];
   options?: ApplyEncryptedFiedlsOptionsI;
+  json_serialize?:boolean
 }
 export { ApplyEncryptedFiedlsOptionsI, ApplyEncryptedFieldsI };
